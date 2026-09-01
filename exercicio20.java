@@ -1,0 +1,15 @@
+package exercicioScanner;
+import java.util.Scanner;
+public class exercicio20 {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);System.out.print("Você está logado? (true/false): ");
+        boolean logado = scanner.nextBoolean();
+
+        if (logado) {
+            System.out.println("Bem-vindo ao sistema.");
+        }
+
+        scanner.close();
+    }
+}
